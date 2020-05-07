@@ -235,7 +235,7 @@ h1, h2, h3, h4, h5, h6, figure {
 .form-control:active, .form-control:focus {
   outline: none;
   box-shadow: none;
-  border-color: #1FB57B;
+  border-color: #72b02c;
 }
 
 .fh5co-social {
