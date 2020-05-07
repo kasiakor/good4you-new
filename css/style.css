@@ -91,9 +91,9 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 
 .btn-primary {
-  background: #1FB57B;
-  color: #fff;
-  border: 2px solid #1FB57B;
+  background: #72b02c;
+  color: #ffffff;
+  border: 2px solid #72b02c;
 }
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
   background: #72b02c !important;
@@ -1543,7 +1543,9 @@ ul.product-list {
 
 }
 
-/*old template*/
+/* Old template css */
+
+
 .copyright
 {
     text-align: center;
@@ -1553,9 +1555,7 @@ ul.product-list {
   color: #72b02c;
 }
 
-/*--------------------------------------------------------------
-Banner
---------------------------------------------------------------*/
+/* banner */
 
 .banner {
     padding: 2em 2em 0;
@@ -1646,9 +1646,6 @@ p.banner-text {
     }
 }
 
-/*--------------------------------------------------------------
-Typography
---------------------------------------------------------------*/
 
 .content {
 	font-size: 1em;
@@ -1678,11 +1675,14 @@ ul.list-inline {
     max-width: 170px;
 }
 
-/*
-header.container {
-    width: 100%;
+/* search-container */
+.container {
+    width: 80%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
 }
-*/
 
 
 

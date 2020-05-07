@@ -55,10 +55,8 @@
 
 	</head>
 	<body>
-	
-	
 	<div id="fh5co-page">
-	<header id="fh5co-header" role="banner">
+		<header id="fh5co-header" role="banner">
 		<div class="container">
 			<div class="header-inner">
 				<h1><img id="logo" src ="images/logotransscale.gif"></h1>
@@ -68,9 +66,9 @@
 						<li><a href="blog.html">Blog</a></li>
 						<li><a href="products.html">Products</a></li>
 						<li><a href="services.html">Services</a></li>
-						<li><a class="active" href="about.html">About</a></li>
+						<li><a href="about.html">About</a></li>
 						<li><a href="contact.html">Contact</a></li>
-                        <li><a href="search.html">Search</a></li>
+                        <li><a class="active" href="search.html">Search</a></li>
 					</ul>
 				</nav>
 			</div>
@@ -80,26 +78,37 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-md-6 col-md-offset-3 text-center fh5co-heading">
-					<h2>About</h2>
+					<h2>Search</h2>
 				</div>
 			</div>
 			<div class="row">
 				<div class="col-md-12">
-					<div class="row">
-						<div class="col-md-12">
-							<div class="about-inner">
-                                <img id="facts-img" class="img-responsive" style="max-width:170px;" src="images/prezentacje.png" alt="facts" />
-								<p>Good4you specialising in healthy food was established in May 2016 to complement your health as we believe that health matters most in our busy lives. The mission of the company is to spread the world on a healthy lifestyle and to distribute high quality ecological, natural and bio organic products suitable for a wide range of customers including vegetarian, vegan and diabetics.</p>
-							</div>
-						</div>
-					</div>
+					<div class="container">
+                        <form action="/search/" method="GET" id="search">
+                            <div class="row">
+                                <div class="col-lg-12 col-md-12 mx-auto">
+                                    <div class="form-group controls">
+                                        <input type="text" class="form-control col-cx-6" placeholder="Search for something...." name="q" value="" />
+                                    </div>
+                                </div>
+                                <div class="col-lg-12 col-md-12 mx-auto">
+                                    <div class="form-group">
+                                        <button class="btn btn-primary search-button">Search <i class="fa fa-search"></i></button>
+                                    </div>
+                                </div>
+                                <div class="col-lg-12 col-md-12 mx-auto">
+                                    <p>There are no search results</p>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
 				</div>
 			</div>
 		</div>
 	</div>
 	
 	<!-- Footer -->
-  <footer>
+ <footer>
     <div class="container">
       <div class="row">
         <div class="col-lg-12 col-md-12 mx-auto">
@@ -128,8 +137,9 @@
   </footer>
 </div>
     <!-- Bootstrap core JavaScript -->
-  <script src="vendor/jquery/jquery.min.js"></script>
-  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+	
 	
 	
 	<!-- jQuery -->
