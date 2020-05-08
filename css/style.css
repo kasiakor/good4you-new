@@ -1071,10 +1071,10 @@ h1, h2, h3, h4, h5, h6, figure {
   text-decoration: none !important;
 }
 #fh5co-offcanvas ul li a:hover {
-  color: #1FB57B;
+  color: #72b02c;
 }
 #fh5co-offcanvas ul li.active a {
-  color: #1FB57B;
+  color: #72b02c;
 }
 #fh5co-offcanvas ul li.cta {
   margin-left: 0;
@@ -1676,13 +1676,21 @@ ul.list-inline {
 }
 
 /* search-container */
-.container {
+.saerch-container {
     width: 80%;
     padding-right: 15px;
     padding-left: 15px;
     margin-right: auto;
     margin-left: auto;
 }
+
+/* carousel */
+
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+        width: 65%;
+        margin: auto;
+      }
 
 
 
