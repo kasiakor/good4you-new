@@ -1672,7 +1672,8 @@ ul.list-inline {
 
 /* about image  */
 #facts-img {
-    max-width: 300px;
+    max-width: 250px;
+    margin: 20px auto 45px;
 }
 
 /* search-container */
