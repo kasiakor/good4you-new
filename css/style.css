@@ -724,7 +724,7 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 #fh5co-main-services-section .services-inner span {
   position: absolute;
-  top: 30px;
+  top: 0;
   display: block;
   margin-bottom: 45px;
 }
