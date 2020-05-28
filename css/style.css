@@ -564,7 +564,7 @@ h1, h2, h3, h4, h5, h6, figure {
   margin-bottom: 10px;
 }
 .featured-grid .desc span {
-  color: rgba(255, 255, 255, 0.5);
+  color: rgba(255, 255, 255, 0.9);
 }
 .featured-grid:hover, .featured-grid:focus {
   -webkit-box-shadow: 0px 18px 43px -7px rgba(0, 0, 0, 0.32);
@@ -1570,9 +1570,7 @@ h2.banner-heading {
 
 
 p.banner-text {
-	margin-bottom: 1.5em;
-    font-family: 'PT Sans Narrow', sans-serif;
-	
+	margin-bottom: 1.5em;	
 }
 
 .box-text{
@@ -1721,6 +1719,10 @@ a.bg-warning:hover {
         text-decoration: none;
         color: #fff;
     }  
+}
+
+.desc .featured-heading, .desc .featured-category, .centered .banner-heading, .centered .banner-text {
+    text-shadow: 0 0 3px #33691E, 0 0 5px #33691E;
 }
 
 
